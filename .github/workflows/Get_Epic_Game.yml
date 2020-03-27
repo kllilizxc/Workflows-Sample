@@ -8,9 +8,13 @@ name: Get Epic Game
 #     types: epicgame
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+   - cron: "14 5 * * 5"
+
+# on:
+#   push:
+#     branches:
+#       - master
 jobs:
   MainWork:
     runs-on: ubuntu-latest
