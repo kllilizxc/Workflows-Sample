@@ -9,7 +9,7 @@ name: Get Epic Game
 
 on:
   schedule:
-   - cron: "14 5 * * 5"
+   - cron: "0 0 * * 5"
 
 # on:
 #   push:
